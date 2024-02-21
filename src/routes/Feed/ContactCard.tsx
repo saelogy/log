@@ -1,7 +1,7 @@
 import { CONFIG } from "site.config"
 import React from "react"
 import {
-  AiOutlineInstagram,
+  SiArchiveofourown,
   AiOutlineTwitter,
   AiOutlineMail,
   AiFillLinkedin,
@@ -23,14 +23,14 @@ const ContactCard: React.FC = () => {
             <div className="name">twitter</div>
           </a>
         )}
-        {CONFIG.profile.instagram && (
+        {CONFIG.profile.ao3 && (
           <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
+            href={`https://archiveofourown.org/users/${CONFIG.profile.ao3}/profile`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineInstagram className="icon" />
-            <div className="name">instagram</div>
+            <AiOutlineSiArchiveofourown className="icon" />
+            <div className="name">ao3</div>
           </a>
         )}
         {CONFIG.profile.email && (
