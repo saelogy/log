@@ -3,7 +3,7 @@ import React from "react"
 import {
   SiArchiveofourown,
   AiOutlineTwitter,
-  AiOutlineMail,
+  AiOutlineUnorderedList,
   AiFillLinkedin,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
@@ -33,15 +33,15 @@ const ContactCard: React.FC = () => {
             <div className="name">ao3</div>
           </a>
         )}
-        {CONFIG.profile.email && (
+        {CONFIG.profile.mal && (
           <a
-            href={`mailto:${CONFIG.profile.email}`}
+            href={`https://myanimelist.net/profile/saelogy`}
             rel="noreferrer"
             target="_blank"
             css={{ overflow: "hidden" }}
           >
-            <AiOutlineMail className="icon" />
-            <div className="name">email</div>
+            <AiOutlineUnorderedList className="icon" />
+            <div className="name">myanimelist</div>
           </a>
         )}
         {CONFIG.profile.linkedin && (
