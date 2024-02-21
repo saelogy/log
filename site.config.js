@@ -7,13 +7,13 @@ const CONFIG = {
     bio: "here to play around with things",
     mal: "saelogy",
     ao3: "peachydrop",
-	twitter: "vrloid",
+	twitter: "peachyhued",
 	github: "saelogy",
   },
   projects: [
     {
-      name: `github`,
-      href: "https://github.com/saelogy",
+      name: `vrloid`,
+      href: "https://twitter.com/vrloid/",
     },
   ],
   // blog setting (required)
