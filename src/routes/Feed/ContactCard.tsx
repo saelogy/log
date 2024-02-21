@@ -29,7 +29,7 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineSiArchiveofourown className="icon" />
+            <SiArchiveofourown className="icon" />
             <div className="name">ao3</div>
           </a>
         )}
