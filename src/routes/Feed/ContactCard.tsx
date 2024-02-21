@@ -35,7 +35,7 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.mal && (
           <a
-            href={`https://myanimelist.net/profile/saelogy`}
+            href={`https://myanimelist.net/profile/${CONFIG.profile.mal}`}
             rel="noreferrer"
             target="_blank"
             css={{ overflow: "hidden" }}

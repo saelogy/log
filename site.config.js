@@ -7,7 +7,7 @@ const CONFIG = {
     bio: "here to play around with things",
     email: "",
     linkedin: "",
-    github: "",
+    mal: "saelogy",
     ao3: "peachydrop",
 	twitter: "vrloid",
   },
