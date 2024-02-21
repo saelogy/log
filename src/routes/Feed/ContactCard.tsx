@@ -4,7 +4,6 @@ import {
   AiOutlineRead,
   AiOutlineTwitter,
   AiOutlineUnorderedList,
-  AiFillLinkedin,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
 

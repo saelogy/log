@@ -10,12 +10,12 @@ const CONFIG = {
 	twitter: "vrloid",
 	github: "saelogy",
   },
-  //projects: [
-    //{
-      //name: `sae dashboard`,
-      //href: "https://github.com/saelogy/log",
-    //},
-  //],
+  projects: [
+    {
+      name: `github`,
+      href: "https://github.com/saelogy",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "sae dashboard",
