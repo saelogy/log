@@ -1,7 +1,7 @@
 import { CONFIG } from "site.config"
 import React from "react"
 import {
-  SiArchiveofourown,
+  AiOutlineRead,
   AiOutlineTwitter,
   AiOutlineUnorderedList,
   AiFillLinkedin,
@@ -29,7 +29,7 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <SiArchiveofourown className="icon" />
+            <AiOutlineRead className="icon" />
             <div className="name">ao3</div>
           </a>
         )}
