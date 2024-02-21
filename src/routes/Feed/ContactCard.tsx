@@ -2,7 +2,7 @@ import { CONFIG } from "site.config"
 import React from "react"
 import {
   AiOutlineInstagram,
-  AiOutlineGithub,
+  AiOutlineTwitter,
   AiOutlineMail,
   AiFillLinkedin,
 } from "react-icons/ai"
