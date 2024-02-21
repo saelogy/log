@@ -13,14 +13,14 @@ const ContactCard: React.FC = () => {
     <>
       <StyledTitle>💬 Contact</StyledTitle>
       <StyledWrapper>
-        {CONFIG.profile.github && (
+        {CONFIG.profile.twitter && (
           <a
-            href={`https://github.com/${CONFIG.profile.github}`}
+            href={`https://twitter.com/${CONFIG.profile.twitter}`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineGithub className="icon" />
-            <div className="name">github</div>
+            <AiOutlineTwitter className="icon" />
+            <div className="name">twitter</div>
           </a>
         )}
         {CONFIG.profile.instagram && (
