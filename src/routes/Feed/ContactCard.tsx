@@ -44,16 +44,6 @@ const ContactCard: React.FC = () => {
             <div className="name">myanimelist</div>
           </a>
         )}
-        {CONFIG.profile.linkedin && (
-          <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiFillLinkedin className="icon" />
-            <div className="name">linkedin</div>
-          </a>
-        )}
       </StyledWrapper>
     </>
   )

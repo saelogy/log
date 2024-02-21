@@ -5,18 +5,17 @@ const CONFIG = {
     image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "hobbyist everything",
     bio: "here to play around with things",
-    email: "",
-    linkedin: "",
     mal: "saelogy",
     ao3: "peachydrop",
 	twitter: "vrloid",
+	github: "saelogy",
   },
-  projects: [
-    {
-      name: `sae dashboard`,
-      href: "https://github.com/saelogy/log",
-    },
-  ],
+  //projects: [
+    //{
+      //name: `sae dashboard`,
+      //href: "https://github.com/saelogy/log",
+    //},
+  //],
   // blog setting (required)
   blog: {
     title: "sae dashboard",
